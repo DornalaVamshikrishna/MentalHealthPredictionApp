@@ -1,5 +1,7 @@
 import streamlit as st
 import pickle
+import subprocess 
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'streamlit_option_menu' ])
 from streamlit_option_menu import option_menu
 import sqlite3
 
